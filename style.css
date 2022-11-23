@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li{
+    padding: 8px 16px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(119, 118, 118);
+}
+.navbar ul li:hover{
+    background-color: rgb(223, 221, 221);
+    cursor: pointer;
+}
+.navbar ul li:hover a{
+    color: black;
+    
+}
+.navbar ul li a i{
+    padding: 0px 3px;
+}
+.search{
+    padding: 8px 16px;
+    color: rgb(148, 147, 147);
+    cursor: pointer;
+}
+.search:hover{
+    background-color: red;
+    color: white;
+}
+.weblogo{
+    background-image: url(./images/man.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    opacity: 0.75;
+}
+.weblogo-center{
+   height: 90vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.weblogo-center span{
+    letter-spacing: 10px;
+    color: white;
+    font-size: 24px;
+    padding: 12px 24px;
+    background-color: black;
+}
+.aboutme{
+    width: 55%;
+    margin: auto;
+    color: #777;
+}
+.aboutme p{
+    line-height: 1.8;
+}
+.myname{
+    display: flex;
+}
+.myname .left, .myname .right{
+    padding: 30px;
+}
+.abouth1{
+    margin-top:50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+}
+.love{
+    text-align: center;
+    margin: 16px 0px;
+}
+.myname .left p{
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.myname .left img{
+    opacity: 0.75;
+}
+.myname .left img:hover{
+    opacity: 1;
+}
+.lettspace{
+    letter-spacing: 10px;
+    padding: 15px 0px;
+}
+.ninety{
+    background-color: rgb(225, 223, 223);
+}
+.ninety h1{
+    width: 90%;
+    color: white;
+    text-align: center;
+    background-color: rgb(90, 90, 90);
+}
+.eightyfive{
+    background-color: rgb(225, 223, 223);
+}
+.eightyfive h1{
+    width: 85%;
+    color: white;
+    text-align: center;
+    background-color: rgb(90, 90, 90);
+}
+.seventyfive{
+    background-color: rgb(225, 223, 223);
+}
+.seventyfive h1{
+    width: 75%;
+    color: white;
+    text-align: center;
+    background-color: rgb(90, 90, 90);
+}
+.love{
+    font-size: 18px;
+}
+.goodat{
+    margin-bottom: 60px;
+}
+.partners{
+    background-color: #616161;
+    color: white;
+    padding: 40px 0px;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.girl{
+    height: 40vh;
+    background-image: url(./images/girl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.girl h1{
+    color: #FFFFFF;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+.contact{
+    height: 40vh;
+    background-image: url(./images/girl2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact h1{
+    color: #FFFFFF;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+.mywork{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 24px;
+}
+.natureimages{
+    margin-top: 40px;
+}
+.natureimages img{
+    width: 217px;
+    height: 163px;
+}
+.natureimages img:hover{
+    opacity: 0.75;
+}
+.aboutme p{
+    text-align: center;
+}
+.top, .bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0px;
+}
+.loadbtn{
+   text-align: center;
+   padding: 50px 0px;
+}
+.load{
+    border: none;
+    background-color: rgb(223, 221, 221);
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.load:hover{
+    background-color: rgb(182, 182, 182);
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    color: #FFFFFF;
+    background-color: black;
+    opacity: 0.75;
+}
+.footer:hover{
+    opacity: 1;
+}
+.footcenter{
+text-align: center;
+}
+.footcenter button{
+    padding: 12px 24px;
+    cursor: pointer;
+}
+.footcenter button:hover{
+   background-color: rgb(182, 182, 182);
+}
+.footcenter button a{
+    text-decoration: none;
+    color: black;
+}
+.social{
+    margin: 20px 0px;
+}
+.social i{
+    font-size: 25px;
+    padding: 0px 5px;
+}
+.social i:hover{
+color: #777;
+}
+.sxcd{
+    color: #FFFFFF;
+}
+.sxcd:hover{
+    color: #777;
+}
